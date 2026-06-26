@@ -1,0 +1,55 @@
+# Ignorar entornos virtuales
+.venv/
+.env/
+
+# Ignorar dependencias
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignorar archivos temporales y de logs
+*.log
+*.pot
+*.pyc
+*.pyo
+*.tmp
+*.swp
+
+# Ignorar archivos de configuraci�n de IDEs
+.vscode/
+.vs/
+.idea/
+*.iml
+
+# Ignorar archivos de pruebas y cobertura
+.coverage
+.tox/
+.nox/
+pytest_cache/
+
+# Ignorar archivos generados por compilaci�n
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignorar archivos de HTML, CSS y JS temporales
+#*.min.js
+#*.min.css
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar node_modules si se usa npm para JS
+node_modules/
+
+# Bases de datos
+*.sqlite
+*.db
+
+# Workspace
+ejemplo_pandas.code-workspace
+
+# Jupyter
+.ipynb_checkpoints
